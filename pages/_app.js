@@ -11,7 +11,10 @@ class MyApp extends App {
     return (
       <Container>
         <Provider store={reduxStore}>
-          <Component {...pageProps} />
+          <div id="main">
+            <h1 className="title">Next.js/Snipcart powered store</h1>
+            <Component {...pageProps} />
+          </div>
         </Provider>
       </Container>
     )

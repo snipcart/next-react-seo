@@ -5,22 +5,22 @@ export const actionTypes = {}
 const initialState = {
     products: [
         {
-            name: 'My first product',
-            price: 50,
-            description: 'I like turtles',
-            image: 'url',
+            name: 'Hat',
+            price: 20,
+            description: 'Razor blades not included',
+            image: 'https://snipcart.com/media/203631/hat.jpeg',
             id: 1
         },{
-            name: 'My second product',
-            price: 100,
-            description: 'I like zonks',
-            image: 'url',
+            name: 'Irish Whiskey',
+            price: 55,
+            description: 'From the most finest producers in Ireland',
+            image: 'https://snipcart.com/media/203633/whiskey-bottle.jpg',
             id: 2
         },{
-            name: 'My third product',
-            price: 150,
-            description: 'I like dragons',
-            image: 'url',
+            name: 'Race horse',
+            price: 2075,
+            description: "We'll even make sure he wins. Everytime.",
+            image: 'https://snipcart.com/media/203632/race-horse.png',
             id: 3
         }
     ]

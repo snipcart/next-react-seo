@@ -1,20 +1,23 @@
 import Link from 'next/link'
 
 const ProductLink = (props) => (
-    <li>
+    <div className="product">
         <Link as={`/product/${props.id}`} href={`/product?id=${props.id}`}>
-            <a>{props.name}</a>
+            <a>
+                <img src={props.image} alt={props.name} height='250' className="thumbnail"/>
+                <p>{ props.description }</p>
+                <p>{props.name}</p>
+            </a>
         </Link>
-    </li>)
+    </div>)
 
 var Products = ({ products }) => (
     <div>
-        <h1>My products</h1>
-        <ul>
+        <div className="products">
             { products.map(props => (
                 <ProductLink key={props.id} {...props}/>
             )) }
-        </ul>
+        </div>
     </div>)
 
 export default Products

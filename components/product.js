@@ -1,10 +1,14 @@
 export default (props) => (
     <div className="product">
 
-        <a className="product" href={props.url }>
-            <img src={props.image} alt={props.name} className="thumbnail"/>
+        <a href={props.url }>
+            <img src={props.image} alt={props.name} height="400px" className="thumbnail"/>
             <p>{props.name}</p>
         </a>
+
+        <p className="product-details">
+            {props.description}
+        </p>
 
         <button className="snipcart-add-item"
             data-item-name={props.name}
