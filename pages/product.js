@@ -15,7 +15,7 @@ class Product extends React.Component {
                 <link  href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css"  rel="stylesheet"  type="text/css" />
                 <link href="/static/main.css" rel="stylesheet" />
             </Head>
-            <a href="./../">go back to home</a>
+            <a href="/">go back to home</a>
             <ProductComp {...(this.props.products.filter(x => x.id == this.props.id)[0])}/>
         </div>
     );
