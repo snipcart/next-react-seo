@@ -13,7 +13,7 @@ const initialState = {
         },{
             name: 'Irish Whiskey',
             price: 55,
-            description: 'From the most finest producers in Ireland',
+            description: 'From the finest producers in Ireland',
             image: 'https://snipcart.com/media/203633/whiskey-bottle.jpg',
             id: 2
         },{

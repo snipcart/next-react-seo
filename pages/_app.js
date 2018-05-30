@@ -18,7 +18,7 @@ class MyApp extends App {
             
             <div>
               <p>
-              SEO-friendly Next.js app with a <a href="https://snipcart.com/">Snipcart</a> powered store.
+              SEO-friendly Next.js app with a <a href="https://snipcart.com/">Snipcart</a> powered store. 
               <a href="https://github.com/snipcart/next-snipcart">[See the code]</a>
               <a href="https://snipcart.com/blog/react-seo-nextjs-tutorial">[Read full tutorial]</a>
               </p>
