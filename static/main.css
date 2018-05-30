@@ -1,18 +1,32 @@
 /**
  * Reset some basic elements
  */
- body, h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6,
 blockquote, pre, hr,
  dl, dd, ol, ul, figure {
      margin: 0;
      padding: 0;
  }
  
+ html, body{
+  margin: 0;
+  height: 100%;
+}
+
+#__next{
+  height: 100%;
+  margin: 0;
+}
+
 #main{
-  display: flex;
-  align-items: center;
+  margin: 0;
+  height: 100%;
   flex-direction: column;
   text-align: center;
+  font-family: Georgia, serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {

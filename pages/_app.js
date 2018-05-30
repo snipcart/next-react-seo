@@ -12,8 +12,17 @@ class MyApp extends App {
       <Container>
         <Provider store={reduxStore}>
           <div id="main">
-            <h1 className="title">Next.js/Snipcart powered store</h1>
+            <h1 className="title">Peaky Blinders’ Store</h1>
+            
             <Component {...pageProps} />
+            
+            <div>
+              <p>
+              SEO-friendly Next.js app with a <a href="https://snipcart.com/">Snipcart</a> powered store.
+              <a href="https://github.com/snipcart/next-snipcart">[See the code]</a>
+              <a href="https://snipcart.com/blog/react-seo-nextjs-tutorial">[Read full tutorial]</a>
+              </p>
+            </div>
           </div>
         </Provider>
       </Container>

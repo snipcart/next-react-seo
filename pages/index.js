@@ -9,6 +9,8 @@ class Index extends React.Component {
       <div>
         <Head>
           <link href="/static/main.css" rel="stylesheet" />
+          <meta name="title" content="Peaky Blinder's e-commerce" />
+          <meta name="description" content='Find the best Peaky Blinders products online.'  />
         </Head>
 
         <Products {...this.props}/>
